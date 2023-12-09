@@ -1,0 +1,85 @@
+.todoTemplate {
+    color: white;
+    width: 20vw;
+    position: absolute;
+    right: 7vw;
+    border-radius: 1rem;
+
+    /*glass effect*/
+    background: rgba( 0, 0, 0, 0.6 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardTitle {
+    align-self: flex-start;
+    margin: 10%;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+.todoHead {
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.tasksLeft {
+    color: #d2d2d2;
+}
+
+.todoList {
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+.todoItem {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1em;
+    border-bottom: #d2d2d2 solid 1px;
+}
+
+.todoUl {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.deleteButton {
+    color: #d2d2d2;
+    background: none;
+    border: 0;
+    outline: 0;
+}
+
+.todoForm {
+    align-self: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: gray solid 1px;
+    margin-bottom: 50px;
+}
+
+.todoInput {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1em;
+}
