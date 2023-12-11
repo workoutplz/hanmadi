@@ -11,7 +11,7 @@ export default function TodoHead() {;
 
   return (
     <div className={styles.todoHead}>
-      <h1>{date}</h1>
+      <h2>{date}</h2>
     </div>
   )
 }

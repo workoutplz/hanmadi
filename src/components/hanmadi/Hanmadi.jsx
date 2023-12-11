@@ -4,6 +4,7 @@ import Greeting from '../greeting/Greeting'
 import Card from '../card/Card'
 import Todo from '../todo/Todo'
 import Search from '../search/Search'
+import FloatingButton from '../floatingButton/FloatingButton'
 
 export default function Hanmadi({ name, path, youtube, description, title }) {
   return (
@@ -13,6 +14,7 @@ export default function Hanmadi({ name, path, youtube, description, title }) {
       <Search/>
       <Card youtubeId={youtube} description={description} title={title}/>
       <Todo />
+      <FloatingButton />
     </>
   )
 }
